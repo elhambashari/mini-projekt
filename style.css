@@ -1,5 +1,9 @@
-body{
-	margin: 0;
-	padding: 0;
-	background-color: rgb(237, 217, 237);
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url('./bild.images/aesthetic-colorful-background-handmade-experimental-art\ \(1\).jpg'); 
+    background-size: cover; 
+    background-repeat:no-repeat;
+   
 }
