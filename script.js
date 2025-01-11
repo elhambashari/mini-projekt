@@ -8,3 +8,22 @@ firstP.style.fontSize = '2rem'
 h1.style.display ='none'
 })
 
+
+
+const ctrlBtn = document.querySelector('.btn')
+const sidebar = document.querySelector('.sidebar')
+const ul = document.querySelector('.ul')
+
+ctrlBtn.addEventListener('click' ,() =>{
+	sidebar.classList.toggle('show')
+	ctrlBtn.classList.toggle('open')
+
+})
+
+ctrlBtn.addEventListener('click' ,() =>{
+
+
+
+})
+
+
