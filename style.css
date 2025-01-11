@@ -5,5 +5,14 @@ body {
     background-image: url('./bild.images/aesthetic-colorful-background-handmade-experimental-art\ \(1\).jpg'); 
     background-size: cover; 
     background-repeat:no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
    
+}
+h1{
+	text-shadow: 3px 3px 5px #000000;
+	font-size: 2.5rem;
+
 }
