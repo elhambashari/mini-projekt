@@ -20,10 +20,15 @@ ctrlBtn.addEventListener('click' ,() =>{
 
 })
 
-ctrlBtn.addEventListener('click' ,() =>{
 
 
+const items = ['Butiks', 'Restaurang', 'Services', 'Car park', 'Blog','Gym'];
 
-})
+
+items.forEach((item) => {
+    const li = document.createElement('li'); 
+    li.textContent = item; 
+    ul.appendChild(li); 
+});
 
 
