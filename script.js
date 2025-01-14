@@ -33,3 +33,9 @@ items.forEach((item) => {
 
 
 
+const regBtn = document.querySelector('#register')
+const logBtn = document.querySelector('#login')
+
+regBtn.addEventListener('click' ,() =>{
+	
+})
