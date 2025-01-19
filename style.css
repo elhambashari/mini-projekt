@@ -12,48 +12,7 @@ body {
    
 }
 
-.clock{
-	width: 350px;
-	height: 350px;
-	background-color: #666;
-	position: relative;
-	border-radius: 50%;
-	box-shadow: inset 10px 10px 15px rgb(34, 34, 34);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: url(./bild.images/vecteezy_vintage-clock-with-roman-numerals-isolated-on-white-background_22809164.jpg);
-	background-size:cover;
-	
 
-}
-.clock::before{
-	content: "";
-	z-index: 4;
-	position: absolute;
-	width: 20px;
-	height: 20px;
-	background-color: #000000;
-	border-radius: 50%;
-}
-
-
-.clock .sec{
-	width: 230px;
-	height: 230px;
-	display: flex;
-	justify-content: center;
-}
-
-.sec:before{
-	content: "";
-	position: absolute;
-	width: 2px;
-	height: 110px;
-	background: #272b27;
-	z-index: 3;
-	border-radius: 6px 6px 0 0;
-}
 
 h1{
 	text-shadow: 1px 3px 5px #000000;
